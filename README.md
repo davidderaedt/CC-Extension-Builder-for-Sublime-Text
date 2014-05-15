@@ -5,6 +5,8 @@ This Sublime Text 2 package lets you create HTML/CSS/JS based extension panels f
 
 *This is a work in progress. For now, it only supports Mac OSX. Windows users can use the equavilent extension for Brackets*
 
+![image](assets/screenshot.png)
+
 
 ##Installation
 
