@@ -1,0 +1,3 @@
+{
+	"cmd": ["$packages/CCExtensions/CC-EXT-SDK/execextendscript.sh",  "id",  "$file"]
+}
