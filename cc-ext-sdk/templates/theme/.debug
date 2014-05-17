@@ -9,22 +9,22 @@
             <Host Name="PHXS" Port="8088"/>
             
             <!-- Illustrator -->
-            <Host Name="ILST" Port="8089"/>
+            <Host Name="ILST" Port="8088"/>
 
             <!-- InDesign -->
-            <Host Name="IDSN" Port="8090" />
+            <Host Name="IDSN" Port="8088" />
             
             <!-- Premiere -->
-            <Host Name="PPRO" Port="8091" />
+            <Host Name="PPRO" Port="8088" />
             
             <!-- AfterEffects -->
-            <Host Name="AEFT" Port="8092" />
+            <Host Name="AEFT" Port="8088" />
             
             <!-- PRELUDE -->
-            <Host Name="PRLD" Port="8093" />
+            <Host Name="PRLD" Port="8088" />
             
             <!-- FLASH Pro -->
-            <Host Name="FLPR" Port="8094" />
+            <Host Name="FLPR" Port="8088" />
                         
         </HostList>
     </Extension>

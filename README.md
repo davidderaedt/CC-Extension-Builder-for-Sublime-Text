@@ -10,7 +10,7 @@ This Sublime Text 2 package lets you create HTML/CSS/JS based extension panels f
 
 ##Installation
 
-For now, you have to download the ZIP of this repository, unzip it, and rename the folder to `CCExtensions` (mandatory for now), and then copy the folder to the `Packages` directory (which you can find under `Preferences > Browse Packages`).
+For now, you have to download the ZIP of this repository, unzip it, and then copy the folder to the `Packages` directory (which you can find under `Preferences > Browse Packages`).
 
 You should now find a new `CC Extensions` menu under the `Tools` menu.
 

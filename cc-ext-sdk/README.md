@@ -4,7 +4,7 @@
 Unofficial SDK for building HTML based extensions for Adobe Creative Cloud applications.
 As of now, it consists of some command line tool / scripts and some templates.
 
-
+*If you're looking for an easier way to build HTML extensions, check out the [Sublime Text plugin](https://github.com/davidderaedt/CC-Extension-Builder-for-Sublime-Text) or the [Brackets plugin](https://github.com/davidderaedt/CC-Extension-Builder-for-Brackets), both built on top of this SDK.*
  
 ###createext 
 
@@ -48,7 +48,7 @@ Example: To deploy an extension located at `~/my-awesome-ext/` with the ID `com.
 
 `deployext.sh ~/my-awesome-ext/ com.example.awesome-ext`
 
-For a sample extension to start with, check out my [Creative Cloud Extension boilerplate](https://github.com/davidderaedt/ccext-boilerplate).
+For a sample extension to start with, check out the official samples repository (https://github.com/Adobe-CEP/Samples).
 
 
 ###setdebugmode and disabledebugmode
