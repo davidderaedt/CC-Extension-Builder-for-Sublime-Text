@@ -1,16 +1,19 @@
 #CC Extension Builder for Sublime Text
 
-This Sublime Text 2 package lets you create HTML/CSS/JS based extension panels for Adobe CC apps such as Photoshop, Illustrator, InDesign, or After Effects. It is meant for the current CEP4.2 architecture (compatible with the current versions of CC apps).
+This Sublime Text 2 package lets you create HTML/CSS/JS based extension panels for Adobe Creative Cloud applications such as Photoshop, Illustrator, InDesign, or After Effects. It is meant for the current CEP4.2 architecture (compatible with the current "CC" version of those apps).
 
 
-*This is a work in progress. For now, it only supports Mac OSX. Windows users can use [the equavilent extension for Brackets](https://github.com/davidderaedt/CC-Extension-Builder-for-Brackets)*
+*This is a work in progress. For now, it only supports Mac OSX. Windows users can use [the equivalent extension for Brackets](https://github.com/davidderaedt/CC-Extension-Builder-for-Brackets)*
 
 ![image](assets/screenshot.png)
 
 
 ##Installation
 
-For now, you have to download the ZIP of this repository, unzip it, and then copy the folder to the `Packages` directory (which you can find under `Preferences > Browse Packages`).
+
+1. [Download the ZIP of this repository](https://github.com/davidderaedt/CC-Extension-Builder-for-Sublime-Text/archive/master.zip), 
+2. Unzip and copy the folder to the `Packages` directory (which you can find under Sublime's `Preferences > Browse Packages` menu)
+3. Relaunch Sublime
 
 You should now find a new `CC Extensions` menu under the `Tools` menu.
 
