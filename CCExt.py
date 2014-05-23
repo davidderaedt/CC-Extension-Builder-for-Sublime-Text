@@ -4,7 +4,20 @@ from os.path import dirname, realpath
 extid = "com.example.ext"
 PLUGIN_PATH = dirname(realpath(__file__))
 SDK_PATH = PLUGIN_PATH + "/cc-ext-sdk/"
-CEP_PATH = os.path.expanduser("~")+"/Library/Application Support/Adobe/CEPServiceManager4/"
+
+USER_DIR = os.path.expanduser("~")
+IS_WIN = (os.name == "nt")
+if IS_WIN:
+	LIB_PATH = USER_DIR + "/AppData/Roaming/Adobe/"	
+	SC_EXT = "bat"
+else :
+	LIB_PATH = USER_DIR + "/Library/Application Support/Adobe/"
+	SC_EXT = "sh"
+# CC 2013 apps
+CEP_FOLDER = "CEPServiceManager4/"
+# CC 2014 apps
+#CEP_FOLDER = "CEP/"
+CEP_PATH = LIB_PATH + CEP_FOLDER
 CEP_EXT_PATH = CEP_PATH + "extensions/"
 
 
@@ -17,7 +30,7 @@ class CreateextCommand(sublime_plugin.TextCommand):
 	def on_done(self, text):
 		global extid
 		extid = text
-		self.view.window().run_command("exec", {"cmd": [SDK_PATH + "createext.sh",  "default",  text]});
+		self.view.window().run_command("exec", {"cmd": [SDK_PATH + "createext." + SC_EXT,  "default",  text]});
 		#ugly timeout until I understand how to deal with async file creation
 		sublime.set_timeout(self.openDebugFile, 300);
 
@@ -41,7 +54,7 @@ class CreateextCommand(sublime_plugin.TextCommand):
 class EnabledebugCommand(sublime_plugin.TextCommand):
 
 	def run(self, edit):
-		self.view.window().run_command("exec", {"cmd":[SDK_PATH + "setdebugmode.sh"]});
+		self.view.window().run_command("exec", {"cmd":[SDK_PATH + "setdebugmode." + SC_EXT]});
 
 
 
