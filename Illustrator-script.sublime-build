@@ -1,3 +1,7 @@
 {
-	"cmd": ["$packages/CCExtensions/CC-EXT-SDK/execextendscript.sh",  "ai",  "$file"]
+	"cmd": ["$packages/CCExtensions/CC-EXT-SDK/execextendscript.sh",  "ai",  "$file"],
+	"windows": {
+		"cmd": ["$packages/CCExtensions/CC-EXT-SDK/execextendscript.bat",  "ps",  "$file"]
+	} 
+	
 }
