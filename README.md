@@ -3,8 +3,6 @@
 This Sublime Text 2 package lets you create HTML/CSS/JS based extension panels for Adobe Creative Cloud applications such as Photoshop, Illustrator, InDesign, or After Effects. It is meant for the current CEP4.2 architecture (compatible with the current "CC" version of those apps).
 
 
-*This is a work in progress. For now, it only supports Mac OSX. Windows users can use [the equivalent extension for Brackets](https://github.com/davidderaedt/CC-Extension-Builder-for-Brackets)*
-
 ![image](assets/screenshot.png)
 
 
