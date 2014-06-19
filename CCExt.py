@@ -13,8 +13,8 @@ if IS_WIN:
 else :
 	LIB_PATH = USER_DIR + "/Library/Application Support/Adobe/"
 	SC_EXT = "sh"
-# CC 2013 apps
-CEP_FOLDER = "CEPServiceManager4/"
+# CC 2014 apps
+CEP_FOLDER = "CEP/"
 # CC 2014 apps
 #CEP_FOLDER = "CEP/"
 CEP_PATH = LIB_PATH + CEP_FOLDER
